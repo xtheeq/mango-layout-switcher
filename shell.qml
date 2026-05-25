@@ -83,7 +83,10 @@ PanelWindow {
         "layout-dashboard": "",
         "chart-funnel": "ﻵ",
         "grip-vertical": "",
-        "check": ""
+        "check": "",
+        "layout-collage": "",
+        "layout-board-split": "",
+        "layout-board": ""
     })
     readonly property var iconMap: ({
         "T": "layout-sidebar",
@@ -93,7 +96,9 @@ PanelWindow {
         "K": "versions",
         "RT": "layout-sidebar-right",
         "CT": "layout-distribute-vertical",
-        "TG": "layout-dashboard",
+        "DW": "layout-collage",
+        "F":  "layout-board-split",
+        "VF": "layout-board",
         "VT": "layout-rows",
         "VS": "carousel-vertical",
         "VG": "grid-dots",
